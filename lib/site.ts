@@ -10,7 +10,7 @@ export const site = {
   slogan: "Comfort you can trust. Service you can rely on.",
   descriptor: "Engineering · Maintenance · HVAC · Technology",
   url: "https://alltechhvac.ca",
-  email: "infoalltech@gmail.com",
+  email: "service@alltechhvac.ca",
   phoneOffice: "519-513-2020",
   phoneOfficeTel: "+15195132020",
   phoneMobile: "289-533-7001",
