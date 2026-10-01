@@ -59,8 +59,8 @@ export default function HomePage() {
               HVAC for homes, commercial buildings, and industrial facilities.
             </h1>
             <p className="mt-5 max-w-xl text-base leading-7 text-white/80 sm:text-lg">
-              {site.name} installs, maintains, and repairs heating and cooling systems across
-              Kitchener-Waterloo. Certified technicians, transparent pricing, and a mobile line that
+              {site.name} installs, maintains, and repairs heating and cooling systems all across
+              Ontario. Certified technicians, transparent pricing, and a mobile line that
               answers after hours.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
