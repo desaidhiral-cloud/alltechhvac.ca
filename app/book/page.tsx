@@ -4,7 +4,7 @@ import { pageMeta, site } from "@/lib/site";
 
 export const metadata = pageMeta(
   "Book a Consultation",
-  "Request HVAC service or a site visit from Alltech Building Services in Kitchener. Office 519-513-2020, 24/7 mobile 289-533-7001.",
+  "Request HVAC service or a site visit from Alltech Building Services in Kitchener. Office 519-513-2020, 24/7 mobile 289-233-7001.",
   "/book",
 );
 

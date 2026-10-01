@@ -28,7 +28,7 @@ export const areas: ServiceArea[] = [
       "Home base for residential replacements and commercial rooftop work",
       "Downtown, residential neighbourhoods, and industrial parks",
       "Same-day response is realistic here when the schedule allows",
-      "Office: 519-513-2020 · Mobile: 289-533-7001",
+      "Office: 519-513-2020 · Mobile: 289-233-7001",
     ],
   },
   {

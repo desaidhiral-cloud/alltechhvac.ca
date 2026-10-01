@@ -4,7 +4,7 @@ import { addressLine, pageMeta, site } from "@/lib/site";
 
 export const metadata = pageMeta(
   "Contact",
-  "Call Alltech Building Services in Kitchener at 519-513-2020, or the 24/7 mobile line at 289-533-7001. 11 Westwood Drive, Kitchener, ON.",
+  "Call Alltech Building Services in Kitchener at 519-513-2020, or the 24/7 mobile line at 289-233-7001. 11 Westwood Drive, Kitchener, ON.",
   "/contact",
 );
 
