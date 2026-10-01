@@ -16,7 +16,7 @@ export function Photo({
   sizes = "(max-width: 768px) 100vw, 720px",
 }: Props) {
   return (
-    <div className={`relative overflow-hidden bg-mist ${className}`}>
+    <div className={`relative w-full max-w-full overflow-hidden bg-mist ${className}`}>
       <Image
         src={src}
         alt={alt}

@@ -36,7 +36,7 @@ export default async function SectorPage({
   return (
     <>
       <PageHero eyebrow="Sectors we serve" title={sector.title} />
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[260px_1fr] lg:py-16">
+      <div className="mx-auto grid w-full min-w-0 max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[260px_minmax(0,1fr)] lg:py-16">
         <Sidebar
           title="Sectors"
           current={`/sectors/${sector.slug}`}
@@ -45,7 +45,7 @@ export default async function SectorPage({
             label: item.label,
           }))}
         />
-        <article>
+        <article className="min-w-0">
           <Breadcrumbs
             items={[
               { name: "Home", href: "/" },
@@ -53,7 +53,7 @@ export default async function SectorPage({
               { name: sector.label, href: `/sectors/${sector.slug}` },
             ]}
           />
-          <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
+          <div className="grid min-w-0 gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:items-start">
             <div>
               <h2 className="text-2xl font-extrabold tracking-tight text-navy sm:text-3xl">
                 {sector.headline}
@@ -63,13 +63,13 @@ export default async function SectorPage({
             <Photo
               src={sector.image}
               alt={sector.imageAlt}
-              className="aspect-[4/3] rounded-3xl"
+              className="aspect-[16/10] rounded-3xl sm:aspect-[4/3]"
             />
           </div>
 
           <h2 className="mt-12 text-2xl font-bold text-navy">Why this building type is its own job</h2>
           <div className="mt-5 overflow-hidden rounded-2xl border border-line">
-            <div className="hidden grid-cols-3 bg-navy px-4 py-3 text-xs font-bold uppercase tracking-wider text-white sm:grid">
+            <div className="hidden grid-cols-3 bg-navy px-4 py-3 text-xs font-bold uppercase tracking-wider text-white md:grid">
               <span>Area</span>
               <span>What goes wrong</span>
               <span>Why it matters</span>
@@ -77,7 +77,7 @@ export default async function SectorPage({
             {sector.challenges.map((row) => (
               <div
                 key={row.area}
-                className="grid gap-1 border-t border-line px-4 py-4 text-sm sm:grid-cols-3"
+                className="grid min-w-0 gap-1 border-t border-line px-4 py-4 text-sm md:grid-cols-3"
               >
                 <p className="font-bold text-navy">{row.area}</p>
                 <p className="text-muted">{row.challenge}</p>
@@ -110,7 +110,7 @@ export default async function SectorPage({
             {sector.advantages.map((row) => (
               <div
                 key={row.advantage}
-                className="grid gap-1 border-t border-line px-4 py-4 text-sm first:border-t-0 sm:grid-cols-2"
+                className="grid min-w-0 gap-1 border-t border-line px-4 py-4 text-sm first:border-t-0 md:grid-cols-2"
               >
                 <p className="font-bold text-navy">{row.advantage}</p>
                 <p className="text-muted">{row.benefit}</p>

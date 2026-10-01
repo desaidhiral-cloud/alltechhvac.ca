@@ -80,7 +80,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Skip to content
         </a>
         <Header />
-        <main id="main">{children}</main>
+        <main id="main" className="min-w-0 max-w-full">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

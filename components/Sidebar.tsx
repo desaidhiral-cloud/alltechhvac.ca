@@ -10,9 +10,12 @@ export function Sidebar({
   current: string;
 }) {
   return (
-    <aside className="lg:sticky lg:top-28 lg:self-start">
+    <aside className="w-full min-w-0 max-w-full lg:sticky lg:top-28 lg:self-start">
       <p className="mb-3 text-xs font-bold uppercase tracking-[0.16em] text-blue">{title}</p>
-      <nav className="flex gap-2 overflow-x-auto pb-1 lg:grid lg:overflow-visible" aria-label={title}>
+      <nav
+        className="flex w-full min-w-0 max-w-full gap-2 overflow-x-auto overscroll-x-contain pb-1 [mask-image:linear-gradient(to_right,#000_calc(100%-1.75rem),transparent)] [scrollbar-width:none] lg:grid lg:overflow-visible lg:[mask-image:none] [&::-webkit-scrollbar]:hidden"
+        aria-label={title}
+      >
         {items.map((item) => {
           const active = item.href === current;
           return (

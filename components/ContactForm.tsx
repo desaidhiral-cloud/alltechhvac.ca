@@ -46,49 +46,49 @@ export function ContactForm({
   }
 
   return (
-    <form onSubmit={onSubmit} className="relative rounded-3xl border border-line bg-white p-5 shadow-sm sm:p-7">
+    <form onSubmit={onSubmit} className="relative min-w-0 rounded-3xl border border-line bg-white p-5 shadow-sm sm:p-7">
       <h2 className="text-xl font-bold text-navy">{heading}</h2>
       <p className="mt-2 text-sm leading-6 text-muted">
         This opens your email app with the message filled in, addressed to {site.email}. For a
         no-heat or down-system call, phone {site.phoneMobile}. Email is not watched overnight.
       </p>
-      <div className="mt-5 grid gap-4 sm:grid-cols-2">
-        <label className="grid gap-1.5 text-sm font-semibold text-ink">
+      <div className="mt-5 grid min-w-0 gap-4 sm:grid-cols-2">
+        <label className="grid min-w-0 gap-1.5 text-sm font-semibold text-ink">
           Name
           <input
             name="name"
             required
             autoComplete="name"
-            className="h-12 rounded-xl border border-line px-3 font-normal outline-none focus:border-cyan"
+            className="h-12 w-full min-w-0 rounded-xl border border-line px-3 font-normal outline-none focus:border-cyan"
           />
         </label>
-        <label className="grid gap-1.5 text-sm font-semibold text-ink">
+        <label className="grid min-w-0 gap-1.5 text-sm font-semibold text-ink">
           Phone
           <input
             name="phone"
             required
             type="tel"
             autoComplete="tel"
-            className="h-12 rounded-xl border border-line px-3 font-normal outline-none focus:border-cyan"
+            className="h-12 w-full min-w-0 rounded-xl border border-line px-3 font-normal outline-none focus:border-cyan"
           />
         </label>
-        <label className="grid gap-1.5 text-sm font-semibold text-ink sm:col-span-2">
+        <label className="grid min-w-0 gap-1.5 text-sm font-semibold text-ink sm:col-span-2">
           Email
           <input
             name="email"
             required
             type="email"
             autoComplete="email"
-            className="h-12 rounded-xl border border-line px-3 font-normal outline-none focus:border-cyan"
+            className="h-12 w-full min-w-0 rounded-xl border border-line px-3 font-normal outline-none focus:border-cyan"
           />
         </label>
-        <label className="grid gap-1.5 text-sm font-semibold text-ink">
+        <label className="grid min-w-0 gap-1.5 text-sm font-semibold text-ink">
           Property
           <select
             name="property"
             required
             defaultValue=""
-            className="h-12 rounded-xl border border-line bg-white px-3 font-normal outline-none focus:border-cyan"
+            className="h-12 w-full min-w-0 rounded-xl border border-line bg-white px-3 font-normal outline-none focus:border-cyan"
           >
             <option value="" disabled>
               Select
@@ -98,13 +98,13 @@ export function ContactForm({
             <option>Industrial</option>
           </select>
         </label>
-        <label className="grid gap-1.5 text-sm font-semibold text-ink">
+        <label className="grid min-w-0 gap-1.5 text-sm font-semibold text-ink">
           Service
           <select
             name="service"
             required
             defaultValue=""
-            className="h-12 rounded-xl border border-line bg-white px-3 font-normal outline-none focus:border-cyan"
+            className="h-12 w-full min-w-0 rounded-xl border border-line bg-white px-3 font-normal outline-none focus:border-cyan"
           >
             <option value="" disabled>
               Select
@@ -116,13 +116,13 @@ export function ContactForm({
             <option>Not sure yet</option>
           </select>
         </label>
-        <label className="grid gap-1.5 text-sm font-semibold text-ink sm:col-span-2">
+        <label className="grid min-w-0 gap-1.5 text-sm font-semibold text-ink sm:col-span-2">
           What do you need?
           <textarea
             name="message"
             required
             rows={5}
-            className="rounded-xl border border-line px-3 py-3 font-normal outline-none focus:border-cyan"
+            className="w-full min-w-0 rounded-xl border border-line px-3 py-3 font-normal outline-none focus:border-cyan"
           />
         </label>
       </div>

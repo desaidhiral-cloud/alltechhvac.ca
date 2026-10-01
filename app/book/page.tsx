@@ -16,8 +16,8 @@ export default function BookPage() {
         title="Request a consultation"
         aside="Quotes, maintenance, and project walkthroughs"
       />
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[0.8fr_1.2fr] lg:py-16">
-        <div>
+      <div className="mx-auto grid w-full min-w-0 max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)] lg:py-16">
+        <div className="min-w-0">
           <p className="text-base leading-7 text-muted">
             Use this for replacements, maintenance programs, and “come look at this.” If the
             building is already down, skip the form and call.

@@ -14,8 +14,8 @@ export default function ContactPage() {
   return (
     <>
       <PageHero eyebrow="Contact" title="Talk to us" aside={site.hours} />
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[0.85fr_1.15fr] lg:py-16">
-        <div>
+      <div className="mx-auto grid w-full min-w-0 max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:py-16">
+        <div className="min-w-0">
           <h2 className="text-sm font-bold uppercase tracking-[0.14em] text-blue">Office</h2>
           <a href={`tel:${site.phoneOfficeTel}`} className="mt-2 block text-2xl font-extrabold text-navy">
             {site.phoneOffice}
@@ -40,7 +40,7 @@ export default function ContactPage() {
             <iframe
               title="Map to Alltech Building Services"
               src={mapSrc}
-              className="h-64 w-full"
+              className="block h-64 w-full max-w-full"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />

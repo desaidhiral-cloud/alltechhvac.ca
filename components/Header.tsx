@@ -66,13 +66,13 @@ function DesktopMenu({
         <Chevron />
       </Link>
       <div
-        className={`absolute left-0 top-full z-50 pt-2 transition duration-150 ${
-          shown ? "visible opacity-100" : "invisible opacity-0"
-        }`}
+        className={`absolute top-full z-50 pt-2 transition duration-150 ${
+          shown ? "visible opacity-100" : "pointer-events-none invisible opacity-0"
+        } ${wide ? "right-0" : "left-0"}`}
       >
         <div
           className={`grid rounded-2xl border border-line bg-white p-2 shadow-xl ${
-            wide ? "w-[32rem] grid-cols-2" : "w-72 grid-cols-1"
+            wide ? "w-[min(32rem,calc(100vw-2rem))] grid-cols-2" : "w-72 grid-cols-1"
           }`}
         >
           {item.children.map((child) => (

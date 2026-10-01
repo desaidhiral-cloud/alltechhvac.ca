@@ -35,7 +35,7 @@ export default async function ServicePage({
   return (
     <>
       <PageHero eyebrow="Services" title={service.title} />
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[260px_1fr] lg:py-16">
+      <div className="mx-auto grid w-full min-w-0 max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[260px_minmax(0,1fr)] lg:py-16">
         <Sidebar
           title="Our services"
           current={`/services/${service.slug}`}
@@ -44,7 +44,7 @@ export default async function ServicePage({
             label: item.label,
           }))}
         />
-        <article>
+        <article className="min-w-0">
           <Breadcrumbs
             items={[
               { name: "Home", href: "/" },
