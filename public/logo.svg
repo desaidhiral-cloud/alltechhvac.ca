@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Alltech Building Services">
+  <path d="M10 38c1.2-13 12-22 24.5-20.2" stroke="#1AA3E8" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M36.2 16.2l7.2-1.2-1.6 6.4" fill="#1AA3E8"/>
+  <path d="M16 52V34.2L26 27v25H16z" fill="#0C2C5E"/>
+  <path d="M28 52V22.5l12-8.2V52H28z" fill="#1454A8"/>
+  <path d="M42.5 52V33.2L52 26.8V52h-9.5z" fill="#0C2C5E"/>
+  <g fill="#E8F6FE">
+    <rect x="18.4" y="36.2" width="2.1" height="2.1"/>
+    <rect x="21.6" y="36.2" width="2.1" height="2.1"/>
+    <rect x="18.4" y="40" width="2.1" height="2.1"/>
+    <rect x="21.6" y="40" width="2.1" height="2.1"/>
+    <rect x="18.4" y="43.8" width="2.1" height="2.1"/>
+    <rect x="21.6" y="43.8" width="2.1" height="2.1"/>
+    <rect x="31" y="26" width="2.3" height="2.3"/>
+    <rect x="34.6" y="26" width="2.3" height="2.3"/>
+    <rect x="31" y="30.2" width="2.3" height="2.3"/>
+    <rect x="34.6" y="30.2" width="2.3" height="2.3"/>
+    <rect x="31" y="34.4" width="2.3" height="2.3"/>
+    <rect x="34.6" y="34.4" width="2.3" height="2.3"/>
+    <rect x="31" y="38.6" width="2.3" height="2.3"/>
+    <rect x="34.6" y="38.6" width="2.3" height="2.3"/>
+    <rect x="31" y="42.8" width="2.3" height="2.3"/>
+    <rect x="34.6" y="42.8" width="2.3" height="2.3"/>
+    <rect x="44.8" y="36" width="2" height="2"/>
+    <rect x="47.8" y="36" width="2" height="2"/>
+    <rect x="44.8" y="39.6" width="2" height="2"/>
+    <rect x="47.8" y="39.6" width="2" height="2"/>
+    <rect x="44.8" y="43.2" width="2" height="2"/>
+    <rect x="47.8" y="43.2" width="2" height="2"/>
+  </g>
+  <circle cx="46.6" cy="14.2" r="2.3" fill="#1AA3E8"/>
+  <path d="M14 52.5h38" stroke="#0C2C5E" stroke-width="2" stroke-linecap="round"/>
+</svg>

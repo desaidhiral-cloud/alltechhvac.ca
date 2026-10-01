@@ -1,0 +1,35 @@
+export function photo(id: string, width = 1800) {
+  return `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${width}&q=75`;
+}
+
+export const photos = {
+  tech: photo("photo-1504328345606-18bbc8c9d7d1"),
+  plant: photo("photo-1581094794329-c8112a89af12"),
+  engineer: photo("photo-1581091226825-a6a2a5aee158"),
+  panel: photo("photo-1621905252507-b35492cc74b4"),
+  electrician: photo("photo-1621905251189-08b45d6a269e"),
+  office: photo("photo-1497366216548-37526070297c"),
+  officeWork: photo("photo-1497366811353-6870744d04b2"),
+  tower: photo("photo-1486406146926-c627a92ad1ab"),
+  hotel: photo("photo-1566073771259-6a8506099945"),
+  restaurant: photo("photo-1517248135467-4c7edcad34c4"),
+  kitchen: photo("photo-1556912173-46c336c7fd55"),
+  school: photo("photo-1580582932707-520aed937b7b"),
+  retail: photo("photo-1441986300917-64674bd600d8"),
+  mall: photo("photo-1519567241046-7f570eee3ce6"),
+  church: photo("photo-1438032005730-c779502df39b"),
+  sports: photo("photo-1574629810360-7efbbe195018"),
+  warehouse: photo("photo-1586528116311-ad8dd3c8310d"),
+  factory: photo("photo-1565043666747-69f6646db940"),
+  highrise: photo("photo-1545324418-cc1a3fa10c00"),
+  home: photo("photo-1600585154340-be6161a56a0c"),
+  house: photo("photo-1560518883-ce09059eeffa"),
+  pipes: photo("photo-1473341304170-971dccb5ac1e"),
+  consult: photo("photo-1454165804606-c3d57bc86b40"),
+  handshake: photo("photo-1521791136064-7986c2920216"),
+  build: photo("photo-1503387762-592deb58ef4e"),
+  inspect: photo("photo-1581092160562-40aa08e78837"),
+  city: photo("photo-1449824913935-59a10b8d2000"),
+  hvac: photo("photo-1581092918056-0c4c3acd3789"),
+  condo: photo("photo-1460317442991-0ec209397118"),
+};
