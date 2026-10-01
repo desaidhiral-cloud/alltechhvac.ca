@@ -6,12 +6,12 @@ import { pillars, site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Alltech Building Services | HVAC Contractor in Kitchener-Waterloo",
+    absolute: "Alltech Building Services | HVAC Contractor in Ontario",
   },
   description: site.description,
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Alltech Building Services | HVAC Contractor in Kitchener-Waterloo",
+    title: "Alltech Building Services | HVAC Contractor in Ontario",
     description: site.description,
     url: "/",
   },

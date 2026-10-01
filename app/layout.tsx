@@ -21,7 +21,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `${site.name} | HVAC Contractor in Kitchener-Waterloo`,
+    default: `${site.name} | HVAC Contractor in Ontario`,
     template: `%s | ${site.name}`,
   },
   description: site.description,
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_CA",
     siteName: site.name,
-    title: `${site.name} | HVAC Contractor in Kitchener-Waterloo`,
+    title: `${site.name} | HVAC Contractor in Ontario`,
     description: site.description,
     url: site.url,
   },
@@ -58,8 +58,8 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
+      { url: "/icon", type: "image/png", sizes: "192x192" },
       { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/icon", type: "image/png", sizes: "64x64" },
     ],
     apple: [{ url: "/apple-icon", sizes: "180x180" }],
   },

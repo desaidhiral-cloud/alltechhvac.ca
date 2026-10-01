@@ -18,7 +18,7 @@ export const site = {
   hours: "Mon–Fri 8:00 AM – 6:00 PM",
   emergency: "24/7 emergency service",
   description:
-    "Alltech Building Services designs, installs, maintains, and repairs HVAC systems for homes, commercial buildings, and industrial facilities across Kitchener-Waterloo and surrounding communities.",
+    "Alltech Building Services installs, repairs, and maintains HVAC for homes, commercial buildings, and industrial facilities across Ontario. Based in Kitchener.",
   address: {
     street: "11 Westwood Drive",
     city: "Kitchener",

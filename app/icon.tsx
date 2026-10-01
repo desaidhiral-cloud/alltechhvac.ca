@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const size = { width: 64, height: 64 };
+export const size = { width: 192, height: 192 };
 export const contentType = "image/png";
 
 export default function Icon() {
@@ -8,10 +8,10 @@ export default function Icon() {
     (
       <div
         style={{
-          width: "64px",
-          height: "64px",
+          width: "192px",
+          height: "192px",
           background: "#071833",
-          borderRadius: "14px",
+          borderRadius: "42px",
           display: "flex",
           alignItems: "flex-end",
           justifyContent: "center",
@@ -22,21 +22,21 @@ export default function Icon() {
           style={{
             display: "flex",
             alignItems: "flex-end",
-            gap: "3px",
-            marginBottom: "12px",
+            gap: "9px",
+            marginBottom: "36px",
           }}
         >
-          <div style={{ width: "10px", height: "20px", background: "#7EB6EA", borderRadius: "2px" }} />
-          <div style={{ width: "13px", height: "34px", background: "#ffffff", borderRadius: "2px" }} />
-          <div style={{ width: "10px", height: "24px", background: "#1AA3E8", borderRadius: "2px" }} />
+          <div style={{ width: "30px", height: "60px", background: "#7EB6EA", borderRadius: "4px" }} />
+          <div style={{ width: "39px", height: "102px", background: "#ffffff", borderRadius: "4px" }} />
+          <div style={{ width: "30px", height: "72px", background: "#1AA3E8", borderRadius: "4px" }} />
         </div>
         <div
           style={{
             position: "absolute",
-            top: "10px",
-            right: "12px",
-            width: "8px",
-            height: "8px",
+            top: "30px",
+            right: "36px",
+            width: "24px",
+            height: "24px",
             borderRadius: "99px",
             background: "#49C4F3",
           }}
