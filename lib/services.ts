@@ -33,7 +33,7 @@ export const services: Service[] = [
       "Alltech Building Services builds a schedule around the equipment you actually have (rooftop units, boilers, heat pumps, make-up air, split systems, and controls), then shows up and writes down what we found.",
     ],
     image: photos.inspect,
-    imageAlt: "Technician inspecting mechanical equipment",
+    imageAlt: "Insulated ductwork and a ceiling diffuser",
     explainTitle: "What a maintenance visit actually covers",
     explainBody:
       "We don't do a drive-by filter swap and call it a program. Each visit has a checklist for that piece of equipment: airflow, temperatures, safeties, belts, coils, drains, electrical connections, and the control sequence. You get a short report, not a stack of paperwork nobody reads.",
@@ -117,7 +117,7 @@ export const services: Service[] = [
       "That covers replacements in existing mechanical rooms and full installs on renovations and new fit-outs: furnaces and boilers, heat pumps, rooftop units, air handlers, ventilation, and the controls that run them.",
     ],
     image: photos.build,
-    imageAlt: "Mechanical installation in progress on a commercial site",
+    imageAlt: "Drawings for a mechanical installation",
     explainTitle: "What commissioning and start-up mean",
     explainBody:
       "Commissioning is the handoff from 'the equipment is hung' to 'the building is comfortable and the safeties work.' We check manufacturer start-up requirements, airflow, temperature split, electrical load, drainage, and the sequence of operation. You get a system that was proven on day one, not a callback in week two.",

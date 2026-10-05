@@ -51,7 +51,7 @@ export default function IndustrialPage() {
           </div>
           <Photo
             src={photos.pipes}
-            alt="Industrial piping and mechanical systems"
+            alt="Valves and piping in a mechanical room"
             className="aspect-[4/3] rounded-3xl"
           />
         </div>

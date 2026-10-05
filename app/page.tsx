@@ -82,13 +82,13 @@ export default function HomePage() {
           <div className="grid grid-cols-2 gap-3 sm:gap-4">
             <Photo
               src={photos.engineer}
-              alt="Technician reviewing equipment on site"
+              alt="Outdoor air conditioning condensers on a building"
               className="aspect-[4/5] rounded-3xl"
               priority
             />
             <Photo
               src={photos.plant}
-              alt="Industrial facility"
+              alt="Air handler and ductwork in a mechanical space"
               className="aspect-[4/5] rounded-3xl lg:mt-8"
               priority
             />
@@ -161,7 +161,7 @@ export default function HomePage() {
                   Explore industrial HVAC
                 </Link>
               </div>
-              <Photo src={photos.factory} alt="Industrial plant floor" className="aspect-[16/9]" />
+              <Photo src={photos.factory} alt="Industrial piping and valves" className="aspect-[16/9]" />
             </article>
           </div>
           <div className="mt-6 flex flex-col items-start justify-between gap-4 rounded-3xl bg-navy px-6 py-6 text-white sm:flex-row sm:items-center sm:px-8">
@@ -239,7 +239,7 @@ export default function HomePage() {
               <p className="text-3xl font-extrabold leading-none">All brands</p>
               <p className="mt-2 text-sm font-semibold leading-5">All major systems</p>
             </div>
-            <Photo src={photos.inspect} alt="Equipment inspection" className="aspect-square rounded-3xl" />
+            <Photo src={photos.inspect} alt="Insulated ductwork and a ceiling diffuser" className="aspect-square rounded-3xl" />
           </div>
         </div>
       </section>

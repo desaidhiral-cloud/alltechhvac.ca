@@ -726,7 +726,7 @@ export const sectors: Sector[] = [
     intro:
       "Industrial buildings care about the product and the people, in that order, and the HVAC has to serve both. We install and service makeup air, process heating and cooling, plant ventilation, and the controls that keep a line inside its window.",
     image: photos.factory,
-    imageAlt: "Industrial manufacturing floor",
+    imageAlt: "Industrial piping and valves",
     challenges: [
       {
         area: "Production floor",

@@ -114,7 +114,7 @@ export const areas: ServiceArea[] = [
     description:
       "Industrial and commercial HVAC in Brampton, including manufacturing, warehouses, retail, and homes across the city.",
     image: photos.factory,
-    imageAlt: "Manufacturing equipment",
+    imageAlt: "Industrial piping and valves",
     intro: [
       "Brampton sits in the same Greater Toronto Area service area. Manufacturing bays, logistics buildings, and the commercial plazas each need a different kind of visit.",
       "Tall warehouses with cold floors, process exhaust with no make-up air, and rooftop units over retail are the usual calls. Homes in the city go through the same company.",

@@ -36,7 +36,7 @@ export default function AboutPage() {
             after hours for no-heat, no-cooling, and systems that have taken a building down.
           </p>
         </div>
-        <Photo src={photos.consult} alt="Consultation at a desk" className="aspect-[4/3] rounded-3xl" />
+        <Photo src={photos.consult} alt="Mechanical drawings for a building project" className="aspect-[4/3] rounded-3xl" />
       </article>
       <section className="bg-ice">
         <div className="mx-auto grid max-w-7xl gap-4 px-4 py-12 sm:grid-cols-2 sm:px-6 lg:grid-cols-4">
