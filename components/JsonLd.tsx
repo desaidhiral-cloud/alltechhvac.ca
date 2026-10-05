@@ -1,3 +1,4 @@
+import { areas } from "@/lib/areas";
 import { addressLine, site } from "@/lib/site";
 
 export function JsonLd() {
@@ -19,10 +20,13 @@ export function JsonLd() {
       postalCode: site.address.postal,
       addressCountry: site.address.country,
     },
-    areaServed: ["Kitchener", "Waterloo", "Cambridge", "Guelph"].map((city) => ({
-      "@type": "City",
-      name: city,
-    })),
+    areaServed: [
+      { "@type": "AdministrativeArea", name: "Greater Toronto Area" },
+      ...areas.map((area) => ({
+        "@type": "City",
+        name: area.city,
+      })),
+    ],
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",

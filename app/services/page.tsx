@@ -6,7 +6,7 @@ import { pageMeta } from "@/lib/site";
 
 export const metadata = pageMeta(
   "HVAC Services",
-  "Installation, repair, maintenance, retrofits, project management, controls, and equipment service from Alltech Building Services in Kitchener-Waterloo.",
+  "Installation, repair, maintenance, retrofits, project management, controls, and equipment service from Alltech Building Services in the Greater Toronto Area.",
   "/services",
 );
 

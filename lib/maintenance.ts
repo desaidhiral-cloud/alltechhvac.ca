@@ -18,7 +18,7 @@ export const commercialMaintenance: MaintenancePage = {
   eyebrow: "Commercial",
   title: "Commercial HVAC Maintenance",
   description:
-    "Commercial HVAC maintenance plans in Kitchener-Waterloo. Rooftop units, boilers, heat pumps, and controls on a schedule, with 24/7 backup.",
+    "Commercial HVAC maintenance plans in the Greater Toronto Area. Rooftop units, boilers, heat pumps, and controls on a schedule, with 24/7 backup.",
   lede: "Keep the building open. Catch the failures in April, not on the first hot Monday.",
   paragraphs: [
     "Commercial maintenance is a list of units, a visit cadence, and a technician who has been on that roof before. We build the list from a survey, then price a plan you can actually budget.",
@@ -84,7 +84,7 @@ export const industrialMaintenance: MaintenancePage = {
   eyebrow: "Industrial",
   title: "Industrial HVAC Maintenance",
   description:
-    "Industrial HVAC maintenance in Cambridge, Kitchener, Waterloo, and Guelph. Make-up air, plant heating and cooling, and controls on a shift-friendly schedule.",
+    "Industrial HVAC maintenance across the Greater Toronto Area. Make-up air, plant heating and cooling, and controls on a shift-friendly schedule.",
   lede: "Production doesn't pause because a filter was due. The program has to fit the plant, not the other way around.",
   paragraphs: [
     "Industrial agreements start with the equipment that stops the building if it fails: make-up air, boilers, process cooling, exhaust, and the controls watching them. Comfort units in the offices get covered too, on a lighter cadence.",

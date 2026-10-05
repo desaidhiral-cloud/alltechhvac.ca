@@ -3,6 +3,7 @@ import { photos } from "./photos";
 export type Service = {
   slug: string;
   label: string;
+  summary: string;
   title: string;
   description: string;
   serving: string;
@@ -21,10 +22,12 @@ export const services: Service[] = [
   {
     slug: "maintenance",
     label: "HVAC Maintenance",
+    summary:
+      "Scheduled visits that catch the small failures before they shut the building down. Filters, coils, safeties, and a short report of what we found.",
     title: "HVAC Maintenance Programs",
     description:
-      "Preventive HVAC maintenance for commercial and industrial buildings in Kitchener-Waterloo. Scheduled service, filter changes, and 24/7 backup.",
-    serving: "Commercial and industrial maintenance across Waterloo Region.",
+      "Preventive HVAC maintenance for commercial and industrial buildings in the Greater Toronto Area. Scheduled service, filter changes, and 24/7 backup.",
+    serving: "Commercial and industrial maintenance across the Greater Toronto Area.",
     paragraphs: [
       "Equipment fails on the hottest afternoon or the coldest Monday because small problems were left alone. A maintenance program is how you stop paying for that.",
       "Alltech Building Services builds a schedule around the equipment you actually have (rooftop units, boilers, heat pumps, make-up air, split systems, and controls), then shows up and writes down what we found.",
@@ -61,9 +64,11 @@ export const services: Service[] = [
   {
     slug: "repair",
     label: "HVAC Repair Services",
+    summary:
+      "We diagnose the unit, explain the fault, and quote the repair before any parts go on. The same number answers when the heat or the cooling is already down.",
     title: "HVAC Repair Services",
     description:
-      "Fast HVAC repair for homes, commercial buildings, and industrial sites in Kitchener, Waterloo, Cambridge, and Guelph. 24/7 emergency response.",
+      "Fast HVAC repair for homes, commercial buildings, and industrial sites across the Greater Toronto Area. 24/7 emergency response.",
     serving: "Emergency and scheduled repairs. Office line and after-hours mobile.",
     paragraphs: [
       "When a system is down, the useful question is what's wrong and how fast it can be running again, not a script. Our technicians diagnose the unit in front of them, explain the fault in plain language, and quote the repair before the work starts.",
@@ -101,11 +106,12 @@ export const services: Service[] = [
   {
     slug: "installation",
     label: "HVAC Installation",
+    summary:
+      "New systems and replacements, sized for the building you have now. We start them up, test them under load, and leave when they are actually doing the job.",
     title: "HVAC Installation & Commissioning Services",
     description:
-      "HVAC installation and commissioning in Kitchener-Waterloo. New systems, replacements, and start-up testing for residential, commercial, and industrial buildings.",
-    serving:
-      "Serving Kitchener, Waterloo, Cambridge, Guelph, and surrounding communities.",
+      "HVAC installation and commissioning in the Greater Toronto Area. New systems, replacements, and start-up testing for residential, commercial, and industrial buildings.",
+    serving: "Serving the Greater Toronto Area.",
     paragraphs: [
       "A new unit that was never commissioned is just an expensive box. We size the work to the building, install it cleanly, and stay through start-up until the system holds temperature under a real load.",
       "That covers replacements in existing mechanical rooms and full installs on renovations and new fit-outs: furnaces and boilers, heat pumps, rooftop units, air handlers, ventilation, and the controls that run them.",
@@ -142,10 +148,12 @@ export const services: Service[] = [
   {
     slug: "retrofits",
     label: "Retrofits & Design-Build HVAC Services",
+    summary:
+      "Upgrades for buildings that are already occupied. The mechanical room, the loads, and the budget get designed together, then installed by the same team.",
     title: "Retrofits & Design-Build HVAC Services",
     description:
-      "HVAC retrofits and design-build replacements for existing buildings in Waterloo Region. Better comfort and lower operating cost without a ground-up rebuild.",
-    serving: "Existing buildings across Kitchener-Waterloo and nearby communities.",
+      "HVAC retrofits and design-build replacements for existing buildings in the Greater Toronto Area. Better comfort and lower operating cost without a ground-up rebuild.",
+    serving: "Existing buildings across the Greater Toronto Area.",
     paragraphs: [
       "Most of the buildings we work in are already standing. The mechanical room is tight, the tenants are in place, and the old rooftop unit is one season from done. A retrofit has to respect that.",
       "Design-build means one team owns the concept, the equipment, and the install. You are not stuck translating between an engineer who left and an installer who never saw the site.",
@@ -182,10 +190,12 @@ export const services: Service[] = [
   {
     slug: "project-management",
     label: "HVAC Project Management",
+    summary:
+      "One lead for scope, schedule, trades, and commissioning when the job is bigger than a single unit swap.",
     title: "HVAC Project Management",
     description:
-      "HVAC project management for replacements, fit-outs, and multi-site work in Kitchener-Waterloo. Scheduling, trades, and commissioning under one lead.",
-    serving: "Single buildings and small portfolios across the region.",
+      "HVAC project management for replacements, fit-outs, and multi-site work in the Greater Toronto Area. Scheduling, trades, and commissioning under one lead.",
+    serving: "Single buildings and small portfolios across the Greater Toronto Area.",
     paragraphs: [
       "Larger HVAC jobs slip for boring reasons: equipment lead times, roof access, other trades, and a start-up nobody scheduled. Project management is the work of keeping those from becoming your problem.",
       "We run replacements, tenant fit-outs, and planned upgrades. You get a schedule, a single contact, and a job that is commissioned before we call it finished.",
@@ -222,10 +232,12 @@ export const services: Service[] = [
   {
     slug: "controls",
     label: "DDC, BAS and OEM Control Development",
+    summary:
+      "DDC and building automation that follow this building's schedule, not a factory default. Plus service when the screen and the plant disagree.",
     title: "DDC, BAS and OEM Control Development",
     description:
-      "Building automation, DDC, and OEM controls for HVAC in Kitchener-Waterloo. Sequences that match the equipment, plus service when the front end lies.",
-    serving: "Commercial and industrial controls across Waterloo Region.",
+      "Building automation, DDC, and OEM controls for HVAC in the Greater Toronto Area. Sequences that match the equipment, plus service when the front end lies.",
+    serving: "Commercial and industrial controls across the Greater Toronto Area.",
     paragraphs: [
       "A lot of comfort complaints are controls complaints. The unit is fine. The schedule, the sensor, or the sequence is not. We work on direct digital control, building automation front ends, and the OEM boards that ship with the equipment.",
       "We also help when a site has three generations of controllers and nobody wants to rip them all out. Integration beats a forklift upgrade when the old gear still does its job.",
@@ -262,6 +274,8 @@ export const services: Service[] = [
   {
     slug: "equipment",
     label: "HVAC Products",
+    summary:
+      "Rooftop units, boilers, heat pumps, make-up air, and the plant equipment around them. All major brands. We match the unit to the building.",
     title: "HVAC Systems We Install and Service",
     description:
       "Alltech Building Services installs and services all major HVAC brands: heating, cooling, heat pumps, ventilation, refrigeration, and controls.",

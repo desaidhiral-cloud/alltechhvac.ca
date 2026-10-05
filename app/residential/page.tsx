@@ -25,7 +25,7 @@ const items = [
 
 export const metadata = pageMeta(
   "Residential HVAC",
-  "Home heating, air conditioning, and heat pump installation and repair in Kitchener, Waterloo, Cambridge, and Guelph. Transparent pricing, 24/7 no-heat response.",
+  "Home heating, air conditioning, and heat pump installation and repair across the Greater Toronto Area. Transparent pricing, 24/7 no-heat response.",
   "/residential",
 );
 

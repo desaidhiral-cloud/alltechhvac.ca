@@ -7,7 +7,7 @@ import { pageMeta } from "@/lib/site";
 
 export const metadata = pageMeta(
   "Industrial HVAC",
-  "Industrial HVAC installation, maintenance, and repair for plants and warehouses in Kitchener, Cambridge, Waterloo, and Guelph.",
+  "Industrial HVAC installation, maintenance, and repair for plants and warehouses across the Greater Toronto Area.",
   "/industrial",
 );
 
@@ -39,8 +39,8 @@ export default function IndustrialPage() {
               range when the bay does not.
             </p>
             <p>
-              We install, repair, and maintain that equipment across Kitchener, Waterloo, Cambridge,
-              and Guelph. Shutdown windows get used when you have them. When you don’t, we work the
+              We install, repair, and maintain that equipment across the Greater Toronto Area.
+              Shutdown windows get used when you have them. When you don’t, we work the
               part of the building that can be worked.
             </p>
             <p>

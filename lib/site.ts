@@ -11,14 +11,14 @@ export const site = {
   descriptor: "Engineering · Maintenance · HVAC · Technology",
   url: "https://alltechhvac.ca",
   email: "service@alltechhvac.ca",
-  phoneOffice: "519-513-2020",
-  phoneOfficeTel: "+15195132020",
+  phoneOffice: "289-233-7001",
+  phoneOfficeTel: "+12892337001",
   phoneMobile: "289-233-7001",
   phoneMobileTel: "+12892337001",
   hours: "Mon–Fri 8:00 AM – 6:00 PM",
   emergency: "24/7 emergency service",
   description:
-    "Alltech Building Services installs, repairs, and maintains HVAC for homes, commercial buildings, and industrial facilities across Ontario. Based in Kitchener.",
+    "Alltech Building Services installs, repairs, and maintains HVAC across the Greater Toronto Area.",
   address: {
     street: "11 Westwood Drive",
     city: "Kitchener",
@@ -76,7 +76,6 @@ export const navigation: NavItem[] = [
       href: `/sectors/${sector.slug}`,
     })),
   },
-  { label: "Gallery", href: "/gallery" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -133,7 +132,6 @@ export function allPaths() {
     ...services.map((service) => `/services/${service.slug}`),
     ...sectors.map((sector) => `/sectors/${sector.slug}`),
     ...areas.map((area) => `/service-areas/${area.slug}`),
-    "/gallery",
     "/contact",
     "/book",
     "/privacy",

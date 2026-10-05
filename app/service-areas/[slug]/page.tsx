@@ -55,12 +55,12 @@ export default async function AreaPage({
             Also serving{" "}
             {areas
               .filter((item) => item.slug !== area.slug)
-              .map((item, index, list) => (
+              .map((item, index) => (
                 <span key={item.slug}>
+                  {index > 0 ? ", " : ""}
                   <Link href={`/service-areas/${item.slug}`} className="font-semibold text-blue">
                     {item.city}
                   </Link>
-                  {index < list.length - 1 ? ", " : ""}
                 </span>
               ))}
             .

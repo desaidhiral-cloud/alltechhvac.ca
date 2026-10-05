@@ -24,7 +24,7 @@ export const sectors: Sector[] = [
     label: "Hotels",
     title: "HVAC Solutions for Hotels",
     description:
-      "Hotel HVAC service in Kitchener-Waterloo: guestroom comfort, corridor make-up air, and equipment that can be serviced without emptying the floor.",
+      "Hotel HVAC service in the Greater Toronto Area: guestroom comfort, corridor make-up air, and equipment that can be serviced without emptying the floor.",
     headline: "Quiet rooms. Stable corridors. Equipment that can be worked on at 10 a.m.",
     intro:
       "A hotel sells sleep. Guests forgive a slow elevator more easily than a room that never cools, or a PTAC that rattles all night. We design, replace, and maintain the systems that keep rooms, lobbies, and back-of-house stable while the building stays open.",
@@ -110,7 +110,7 @@ export const sectors: Sector[] = [
     label: "Restaurants",
     title: "HVAC Solutions for Restaurants",
     description:
-      "Restaurant HVAC and kitchen ventilation in Kitchener-Waterloo. Hoods, make-up air, dining comfort, and service that works around dinner.",
+      "Restaurant HVAC and kitchen ventilation in the Greater Toronto Area. Hoods, make-up air, dining comfort, and service that works around dinner.",
     headline: "Fresh air, comfortable dining, and a kitchen that isn't fighting the hood.",
     intro:
       "Dining rooms and kitchens want opposite things from the same building. Guests want quiet, cool air. The line wants a hood that actually captures. We balance both, then keep the equipment on a schedule that isn't 'whenever it breaks on a Friday.'",
@@ -201,7 +201,7 @@ export const sectors: Sector[] = [
     label: "Schools",
     title: "HVAC Solutions for Schools",
     description:
-      "School HVAC service for classrooms, gyms, and portables around Kitchener-Waterloo. Ventilation, filtration, and maintenance that fits the school year.",
+      "School HVAC service for classrooms, gyms, and portables around the Greater Toronto Area. Ventilation, filtration, and maintenance that fits the school year.",
     headline: "Classrooms that stay awake. Air that gets changed. Boilers ready in October.",
     intro:
       "Schools have a hard calendar: no major work in June exams, no dead boilers in January, and gyms that go from empty to packed. We maintain and replace classroom units, rooftop equipment, boilers, and gym systems on that calendar.",
@@ -287,7 +287,7 @@ export const sectors: Sector[] = [
     label: "Showrooms & Sales Floors",
     title: "HVAC Solutions for Showrooms & Sales Floors",
     description:
-      "Showroom and sales-floor HVAC in Kitchener-Waterloo. Glass loads, even temperatures, and quiet equipment that doesn't talk over a sale.",
+      "Showroom and sales-floor HVAC in the Greater Toronto Area. Glass loads, even temperatures, and quiet equipment that doesn't talk over a sale.",
     headline: "Even temperature from the glass line to the back wall.",
     intro:
       "Showrooms are glass, lights, and people standing still. The front of the floor overheats while the offices in the back are fine. We fix the zoning, the equipment, and the noise so the floor is comfortable enough that nobody thinks about it.",
@@ -356,7 +356,7 @@ export const sectors: Sector[] = [
     label: "Shopping Malls & Retail Chains",
     title: "HVAC Solutions for Shopping Malls & Retail Chains",
     description:
-      "Mall and retail-chain HVAC service in Waterloo Region. Rooftop fleets, tenant fit-outs, and common-area air handling.",
+      "Mall and retail-chain HVAC service in the Greater Toronto Area. Rooftop fleets, tenant fit-outs, and common-area air handling.",
     headline: "A fleet of rooftop units, kept on one schedule.",
     intro:
       "Retail mechanical problems are usually volume problems: many rooftop units, many tenants, and a common area that has to feel fine while stores come and go. We maintain fleets, replace failed units, and fit out incoming tenants.",
@@ -430,7 +430,7 @@ export const sectors: Sector[] = [
     label: "Churches",
     title: "HVAC Solutions for Churches",
     description:
-      "Church HVAC in Kitchener-Waterloo. Sanctuary comfort for a few hours a week, and heating that still works on Monday.",
+      "Church HVAC in the Greater Toronto Area. Sanctuary comfort for a few hours a week, and heating that still works on Monday.",
     headline: "Comfortable for the service. Affordable the other six days.",
     intro:
       "Sanctuaries are tall, intermittent, and hard to heat evenly. The week-day offices and halls are a normal building stuck to an abnormal one. We set those up as different problems, because they are.",
@@ -499,7 +499,7 @@ export const sectors: Sector[] = [
     label: "Office",
     title: "HVAC Solutions for Offices",
     description:
-      "Office HVAC in Kitchener-Waterloo. Zoning, ventilation, rooftop replacement, and maintenance for suites and whole buildings.",
+      "Office HVAC in the Greater Toronto Area. Zoning, ventilation, rooftop replacement, and maintenance for suites and whole buildings.",
     headline: "Meetings that aren't an argument about the thermostat.",
     intro:
       "Office complaints are local: one boardroom, the west glass, the server closet someone put a split in ten years ago. We fix the zone, maintain the base building equipment, and replace units that are done.",
@@ -573,7 +573,7 @@ export const sectors: Sector[] = [
     label: "Sports Center and Arenas",
     title: "HVAC Solutions for Sports Centres and Arenas",
     description:
-      "Arena and sports-centre HVAC in Waterloo Region. Dehumidification, ventilation, and heating for rinks, gyms, and field houses.",
+      "Arena and sports-centre HVAC in the Greater Toronto Area. Dehumidification, ventilation, and heating for rinks, gyms, and field houses.",
     headline: "Ice that stays ice. Stands that stay breathable. Lobbies that don't drip.",
     intro:
       "Arenas and sports centres move a lot of air and a lot of moisture. Fog, dripping lobbies, and stale change rooms are mechanical problems. We service dehumidification, heating, ventilation, and the units that keep spectator areas fit to sit in.",
@@ -647,7 +647,7 @@ export const sectors: Sector[] = [
     label: "Warehouses & Logistics Buildings",
     title: "HVAC Solutions for Warehouses & Logistics Buildings",
     description:
-      "Warehouse heating, ventilation, and dock comfort in Kitchener, Cambridge, and Guelph. Unit heaters, make-up air, and destratification.",
+      "Warehouse heating, ventilation, and dock comfort in the Greater Toronto Area. Unit heaters, make-up air, and destratification.",
     headline: "Heat at the floor. Air that turns over. Docks that don't freeze the aisle.",
     intro:
       "Warehouses waste money at the ceiling. The heat sits up there, the doors open all day, and the people at the pack stations are cold. We work on unit heaters, air turnover, make-up air, and dock-area comfort.",
@@ -721,7 +721,7 @@ export const sectors: Sector[] = [
     label: "Industrial Sectors",
     title: "HVAC Solutions for Industrial Sectors",
     description:
-      "Industrial HVAC for manufacturing, food production, and process buildings in Waterloo Region. Ventilation, process comfort, and controls.",
+      "Industrial HVAC for manufacturing, food production, and process buildings in the Greater Toronto Area. Ventilation, process comfort, and controls.",
     headline: "Air that protects the process, not just the lunchroom.",
     intro:
       "Industrial buildings care about the product and the people, in that order, and the HVAC has to serve both. We install and service makeup air, process heating and cooling, plant ventilation, and the controls that keep a line inside its window.",
@@ -795,7 +795,7 @@ export const sectors: Sector[] = [
     label: "High-Rise Residential Buildings",
     title: "HVAC Solutions for High-Rise Residential Buildings",
     description:
-      "High-rise residential HVAC in Kitchener-Waterloo. Fan coils, make-up air, corridors, and amenity spaces for condos and apartments.",
+      "High-rise residential HVAC in the Greater Toronto Area. Fan coils, make-up air, corridors, and amenity spaces for condos and apartments.",
     headline: "Corridors pressurized. Suites comfortable. The mechanical penthouse looked after.",
     intro:
       "Multi-unit buildings fail in the corridors and the penthouse as often as they fail in a single suite. We service make-up air, fan coils, heat pumps, boilers, and amenity-space equipment, and we work with property managers who need a record of the visit.",

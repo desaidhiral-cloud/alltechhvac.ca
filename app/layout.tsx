@@ -21,7 +21,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `${site.name} | HVAC Contractor in Ontario`,
+    default: `${site.name} | HVAC Contractor in the GTA`,
     template: `%s | ${site.name}`,
   },
   description: site.description,
@@ -30,8 +30,11 @@ export const metadata: Metadata = {
   creator: site.name,
   category: "HVAC",
   keywords: [
+    "HVAC Toronto",
+    "HVAC GTA",
     "HVAC Kitchener",
     "HVAC Waterloo",
+    "HVAC Cambridge",
     "commercial HVAC",
     "industrial HVAC",
     "furnace repair Kitchener",
@@ -42,7 +45,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_CA",
     siteName: site.name,
-    title: `${site.name} | HVAC Contractor in Ontario`,
+    title: `${site.name} | HVAC Contractor in the GTA`,
     description: site.description,
     url: site.url,
   },

@@ -1,17 +1,18 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Photo } from "@/components/Photo";
+import { ServiceCards } from "@/components/ServiceCards";
 import { photos } from "@/lib/photos";
 import { pillars, site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Alltech Building Services | HVAC Contractor in Ontario",
+    absolute: "Alltech Building Services | HVAC Contractor in the GTA",
   },
   description: site.description,
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Alltech Building Services | HVAC Contractor in Ontario",
+    title: "Alltech Building Services | HVAC Contractor in the GTA",
     description: site.description,
     url: "/",
   },
@@ -59,9 +60,9 @@ export default function HomePage() {
               HVAC for homes, commercial buildings, and industrial facilities.
             </h1>
             <p className="mt-5 max-w-xl text-base leading-7 text-white/80 sm:text-lg">
-              {site.name} installs, maintains, and repairs heating and cooling systems all across
-              Ontario. Certified technicians, transparent pricing, and a mobile line that
-              answers after hours.
+              {site.name} installs, maintains, and repairs heating and cooling systems across
+              the Greater Toronto Area. Certified technicians, transparent pricing, and a line
+              that answers after hours.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
@@ -71,10 +72,10 @@ export default function HomePage() {
                 Learn more about us
               </Link>
               <Link
-                href="/gallery"
+                href="/services"
                 className="inline-flex h-12 items-center justify-center rounded-full border border-white/30 px-6 text-sm font-bold text-white hover:bg-white/10"
               >
-                Explore our work
+                See our services
               </Link>
             </div>
           </div>
@@ -112,6 +113,8 @@ export default function HomePage() {
           <p>Industrial · 24/7</p>
         </div>
       </section>
+
+      <ServiceCards />
 
       <section className="bg-ice">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:py-20">
@@ -165,7 +168,7 @@ export default function HomePage() {
             <div>
               <h3 className="text-lg font-bold">Homes, too.</h3>
               <p className="mt-1 max-w-2xl text-sm leading-6 text-white/75">
-                Furnaces, air conditioning, and heat pumps for houses in Kitchener-Waterloo. Same
+                Furnaces, air conditioning, and heat pumps for houses in the Greater Toronto Area. Same
                 company, same rule on pricing.
               </p>
             </div>
@@ -213,7 +216,7 @@ export default function HomePage() {
             </h2>
             <div className="mt-5 space-y-4 text-base leading-7 text-muted">
               <p>
-                {site.name} is a Kitchener contractor for residential, commercial, and industrial
+                {site.name} is a Greater Toronto Area contractor for residential, commercial, and industrial
                 HVAC. Installation and replacement, maintenance, emergency repair, ventilation, heat
                 pumps, and the controls that tie a system together.
               </p>
@@ -258,7 +261,7 @@ export default function HomePage() {
             <p className="text-sm font-bold uppercase tracking-[0.16em] text-cyan-2">Vision</p>
             <h2 className="mt-3 text-2xl font-extrabold">Quality first. A little better every year.</h2>
             <p className="mt-4 text-sm leading-7 text-white/80">
-              Be the building-services company Waterloo Region calls when the work has to be done
+              Be the building-services company the Greater Toronto Area calls when the work has to be done
               right. Set the standard on the job in front of us, then raise it on the next one.
             </p>
           </article>
@@ -297,7 +300,7 @@ export default function HomePage() {
                 {site.phoneMobile}
               </a>
               <p className="mt-3 max-w-md text-sm leading-6 text-white/80">
-                Office {site.phoneOffice} · {site.hours}. After hours, use the mobile line. Email
+                {site.phoneOffice} · {site.hours}. The same number answers after hours. Email
                 is not monitored overnight.
               </p>
             </div>

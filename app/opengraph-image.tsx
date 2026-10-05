@@ -28,7 +28,7 @@ export default function OpenGraphImage() {
           Smart solutions. Comfort that lasts.
         </div>
         <div style={{ display: "flex", fontSize: 28, color: "#7FD4FB", letterSpacing: 4 }}>
-          ALLTECH BUILDING SERVICES · ONTARIO · 519-513-2020
+          ALLTECH BUILDING SERVICES · GTA · 289-233-7001
         </div>
       </div>
     ),

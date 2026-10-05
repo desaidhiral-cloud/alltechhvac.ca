@@ -8,7 +8,7 @@ import { pageMeta } from "@/lib/site";
 
 export const metadata = pageMeta(
   "Commercial HVAC",
-  "Commercial HVAC installation, maintenance, and 24/7 repair in Kitchener, Waterloo, Cambridge, and Guelph. Offices, retail, restaurants, schools, and more.",
+  "Commercial HVAC installation, maintenance, and 24/7 repair across the Greater Toronto Area. Offices, retail, restaurants, schools, and more.",
   "/commercial",
 );
 

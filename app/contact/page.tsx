@@ -4,7 +4,7 @@ import { addressLine, pageMeta, site } from "@/lib/site";
 
 export const metadata = pageMeta(
   "Contact",
-  "Call Alltech Building Services in Kitchener at 519-513-2020, or the 24/7 mobile line at 289-233-7001. 11 Westwood Drive, Kitchener, ON.",
+  `Call Alltech Building Services at ${site.phoneOffice}, day or night. ${addressLine}.`,
   "/contact",
 );
 
@@ -33,8 +33,8 @@ export default function ContactPage() {
           <h2 className="mt-6 text-sm font-bold uppercase tracking-[0.14em] text-blue">Shop</h2>
           <p className="mt-2 text-sm leading-6 text-muted">{addressLine}</p>
           <p className="mt-6 text-sm leading-6 text-muted">
-            Proudly serving residential, commercial, and industrial properties in local communities
-            and the surrounding area.
+            Proudly serving residential, commercial, and industrial properties across the Greater
+            Toronto Area.
           </p>
           <div className="mt-6 overflow-hidden rounded-3xl border border-line">
             <iframe

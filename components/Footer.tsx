@@ -12,8 +12,8 @@ export function Footer() {
           <Logo tone="light" />
           <p className="mt-4 max-w-xs text-sm leading-6 text-white/75">
             {site.descriptor}. Heating, cooling, ventilation, and controls for
-            homes, commercial buildings, and industrial facilities from our
-            shop in Kitchener.
+            homes, commercial buildings, and industrial facilities across the
+            Greater Toronto Area.
           </p>
         </div>
         <div>
@@ -21,14 +21,19 @@ export function Footer() {
             Service area
           </h2>
           <ul className="mt-4 space-y-2 text-sm text-white/80">
-            {areas.map((area) => (
-              <li key={area.slug}>
-                <Link href={`/service-areas/${area.slug}`} className="hover:text-white">
-                  {area.city}
-                </Link>
-              </li>
-            ))}
-            <li>Surrounding communities</li>
+            {areas
+              .filter((area) =>
+                ["toronto", "mississauga", "brampton", "vaughan"].includes(area.slug),
+              )
+              .map((area) => (
+                <li key={area.slug}>
+                  <Link href={`/service-areas/${area.slug}`} className="hover:text-white">
+                    {area.city}
+                  </Link>
+                </li>
+              ))}
+            <li>GTA</li>
+            <li>KWC</li>
           </ul>
         </div>
         <div>
@@ -90,7 +95,6 @@ export function Footer() {
           <p>© {new Date().getFullYear()} {site.name}</p>
           <nav className="flex flex-wrap gap-x-4 gap-y-2" aria-label="Footer">
             <Link href="/about" className="hover:text-white">About</Link>
-            <Link href="/gallery" className="hover:text-white">Gallery</Link>
             <Link href="/privacy" className="hover:text-white">Privacy policy</Link>
             <Link href="/contact" className="hover:text-white">Contact</Link>
           </nav>
